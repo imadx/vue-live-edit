@@ -19,8 +19,10 @@
   ],
   "author": "Ishan Madhusanka",
   "license": "ISC",
+  "readme": "readme.md",
   "bugs": {
     "url": "https://github.com/imadx/vue-live-edit/issues"
   },
-  "homepage": "https://github.com/imadx/vue-live-edit#readme"
+  "homepage": "https://github.com/imadx/vue-live-edit#readme",
+   "readme": "readme.md"
 }
