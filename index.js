@@ -1,5 +1,5 @@
 const LiveEdit = {
-    install(Vue, options) {
+    install: function(Vue, options) {
         const LiveEditComponent = require('./Component/LiveEdit')
         Vue.component(LiveEditComponent.name, LiveEditComponent)
     }

@@ -1,6 +1,6 @@
 {
   "name": "vue-live-edit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Vue.js plugin to bind data to a plain text object (e.g. h1,span,label,p) and make edits in the same place, as in for an input field with a v-model.",
   "main": "index.js",
   "repository": {
@@ -23,5 +23,5 @@
   "bugs": {
     "url": "https://github.com/imadx/vue-live-edit/issues"
   },
-  "homepage": "https://github.com/imadx/vue-live-edit#readme",
+  "homepage": "https://github.com/imadx/vue-live-edit#readme"
 }

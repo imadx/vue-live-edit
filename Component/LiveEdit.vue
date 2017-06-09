@@ -4,7 +4,7 @@
 			<textarea v-if="multiline" class="live-edit" type="text" v-model="modelvalue" :placeholder="placeholder"></textarea>
 			<input v-else class="live-edit" type="text" v-model="modelvalue" :placeholder="placeholder">
 		</template>
-		<span v-else>{{modelvalue}}</span>
+		<span v-else>{{modelvalue || placeholder}}</span>
 	</div>
 </template>
 <script>
@@ -13,7 +13,7 @@ import Vue from 'vue'
 		name: 'LiveEdit',
 		props: {
 			value:{
-				type: String,
+				type: [String, Object],
 				required: true,
 			},
 			editable: {
@@ -44,6 +44,6 @@ import Vue from 'vue'
 
 <style scoped>
 	.live-edit{
-	    font-size: 1em !important;
+		font-size: 1em !important;
 	}
 </style>
