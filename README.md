@@ -24,7 +24,7 @@ Within your Vue app, use, `<live-edit></live-edit>` as a `Vue.component`, with t
     v-model="value"
     :editable="isEditable"
     placeholder="placeholder on edit"
-    multiline="true"
+    :multiline="true"
     >
 </live-edit>
 ```
